@@ -11,7 +11,6 @@
   <img src="https://img.shields.io/badge/PRs-welcome-purple?style=for-the-badge&logo=github" />
 </p>
 
-<!-- Header Banner -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header&text=🔥%20Exclusive%20Tool&fontSize=30&fontAlignY=35" width="100%"/>
 </p>
