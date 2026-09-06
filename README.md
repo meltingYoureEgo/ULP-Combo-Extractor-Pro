@@ -17,82 +17,42 @@
 
 ---
 
-<style>
-  .gradient-text {
-    background: linear-gradient(45deg, #f7a81b, #ff6b6b, #845ec2, #00c9a7);
-    background-size: 300% 300%;
-    animation: gradient 4s ease infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-    font-size: 2em;
-  }
-  @keyframes gradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-  }
-  .glow {
-    text-shadow: 0 0 10px rgba(247, 168, 27, 0.8), 0 0 20px rgba(247, 168, 27, 0.5);
-  }
-  .box {
-    border: 2px solid #f7a81b;
-    border-radius: 12px;
-    padding: 20px;
-    margin: 20px 0;
-    background: rgba(247, 168, 27, 0.05);
-    transition: all 0.3s ease;
-  }
-  .box:hover {
-    transform: scale(1.02);
-    border-color: #ff6b6b;
-    box-shadow: 0 0 30px rgba(247, 168, 27, 0.3);
-  }
-  .badge-hover {
-    transition: transform 0.3s ease;
-  }
-  .badge-hover:hover {
-    transform: scale(1.1) rotate(-5deg);
-  }
-</style>
-
 ## 👤 Author
 
 <p align="center">
-  <span class="gradient-text glow">ａᏰᏥì ⃟  🇺🇸|🕯️🍷</span><br>
+  <b style="font-size: 24px; background: linear-gradient(45deg, #f7a81b, #ff6b6b, #845ec2, #00c9a7); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">ａᏰᏥì ⃟  🇺🇸|🕯️🍷</b><br>
   <i>Security Researcher • Developer • B.Tech Student</i>
 </p>
 
 <p align="center">
   <a href="https://github.com/meltingYoureEgo" target="_blank">
-    <img class="badge-hover" src="https://img.shields.io/badge/GitHub-meltingYoureEgo-black?style=for-the-badge&logo=github" />
+    <img src="https://img.shields.io/badge/GitHub-meltingYoureEgo-black?style=for-the-badge&logo=github" />
   </a>
   <a href="https://linktrabbhi.netlify.app" target="_blank">
-    <img class="badge-hover" src="https://img.shields.io/badge/Website-linktrabbhi.netlify.app-blue?style=for-the-badge&logo=netlify" />
+    <img src="https://img.shields.io/badge/Website-linktrabbhi.netlify.app-blue?style=for-the-badge&logo=netlify" />
   </a>
 </p>
 
 ---
 
-## 🔥 Features (Animated Cards)
+## 🔥 Features
 
-<div class="box">
-  <table>
-    <tr><td>🔒 <b>Follower-Only Access</b></td><td>Only works if you follow the author.</td></tr>
-    <tr><td>🎨 <b>Neon Cyberpunk UI</b></td><td>Stunning terminal interface with TrueColor support.</td></tr>
-    <tr><td>⚡ <b>Ultra Performance</b></td><td>MB/s processing speed with pre-compiled regex.</td></tr>
-    <tr><td>🧠 <b>Smart Parsing</b></td><td>Auto-detects delimiters (`:`, `;`, `\|`) and complex formats.</td></tr>
-    <tr><td>📂 <b>Batch Mode</b></td><td>Process entire folders of `.txt` files at once.</td></tr>
-    <tr><td>📊 <b>Live HUD</b></td><td>Real-time dashboard showing speed, progress, ETA.</td></tr>
-    <tr><td>🔐 <b>Security Analytics</b></td><td>Password complexity stats (Numeric, Alpha, Mixed).</td></tr>
-    <tr><td>🛠 <b>Domain Extraction</b></td><td>Save top domains (Gmail, Yahoo, etc.) separately.</td></tr>
-    <tr><td>🧹 <b>Auto-Cleaning</b></td><td>Removes duplicates, bad characters, and garbage data.</td></tr>
-  </table>
-</div>
+| Icon | Feature | Description |
+|------|---------|-------------|
+| 🔒 | **Follower-Only Access** | Only works if you follow the author. |
+| 🎨 | **Neon Cyberpunk UI** | Stunning terminal interface with TrueColor support. |
+| ⚡ | **Ultra Performance** | MB/s processing speed with pre-compiled regex. |
+| 🧠 | **Smart Parsing** | Auto-detects delimiters (`:`, `;`, `\|`) and complex formats. |
+| 📂 | **Batch Mode** | Process entire folders of `.txt` files at once. |
+| 📊 | **Live HUD** | Real-time dashboard showing speed, progress, ETA. |
+| 🔐 | **Security Analytics** | Password complexity stats (Numeric, Alpha, Mixed). |
+| 🛠 | **Domain Extraction** | Save top domains (Gmail, Yahoo, etc.) separately. |
+| 🧹 | **Auto-Cleaning** | Removes duplicates, bad characters, and garbage data. |
 
 ---
 
 ## 🖥️ Live Demo Preview
+
 
 <div class="box" align="center">
   <pre style="background: #0d1117; color: #58a6ff; padding: 15px; border-radius: 8px; text-align: left;">
