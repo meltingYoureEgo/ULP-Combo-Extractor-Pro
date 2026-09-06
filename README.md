@@ -52,3 +52,153 @@
 ---
 
 ## 🖥️ Live Demo Preview
+
+PROCESSING... File 1/5
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45%
+Valid: 313,476 Dups: 102,496 Bad: 14,713
+Speed: 12.5 MB/s Rate: 82,434 L/s ETA: 12s
+
+
+
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/meltingYoureEgo/ULP-Combo-Extractor-Pro.git
+cd ULP-Combo-Extractor-Pro
+
+# (Optional) Install colorama for better UI
+pip install colorama
+
+
+
+python ulp_extractor_follow.py
+
+Step-by-Step Guide
+Step	Action
+1️⃣	Enter your GitHub username when prompted.
+2️⃣	Script verifies if you follow meltingYoureEgo.
+3️⃣	If yes → Extraction menu appears.
+4️⃣	Select file or folder → Apply optional filter.
+5️⃣	Watch the HUD → Get output files.
+
+
+📄 Output Formats
+File	Content
+FILENAME_extracted.txt	All valid combos (sorted & unique)
+FILENAME_extracted_gmail_com.txt	Gmail combos
+FILENAME_extracted_hotmail_com.txt	Hotmail combos
+FILENAME_extracted_yahoo_com.txt	Yahoo combos
+FILENAME_extracted_outlook_com.txt	Outlook combos
+
+🔒 Why Follower-Only?
+"This tool is a gift for my GitHub community. By following me, you support my open-source work and get access to exclusive tools."
+
+Benefits of Following:
+🚀 Exclusive tools – Only followers get access.
+
+📚 Open-source contributions – Regular updates and new projects.
+
+🧠 Security research – Learn from real-world projects.
+
+💬 Community support – Ask questions, collaborate, grow.
+
+🧾 Input Handling Examples
+Input Line	Result	Status
+user:pass	user:pass	✅ Valid
+email@domain.com:password	email@domain.com:password	✅ Valid
+https://site.com:8080:user:pass	user:pass	✅ Smart Parsed
+user;pass	user:pass	✅ Delimiter Fixed
+user\n\npass	user:pass	✅ Cleaned
+garbage_data_line	(Removed)	❌ Invalid
+user:null	(Removed)	❌ Bad Syntax
+
+
+📝 Changelog
+v3.0 — Follower-Only Edition
+✅ Added GitHub follower verification.
+
+✅ Updated author branding to ａᏰᏥì ⃟ 🇺🇸|🕯️🍷.
+
+✅ Enhanced UI with Neon Cyberpunk theme.
+
+✅ Improved regex for better combo extraction.
+
+✅ Added domain-specific file saving.
+
+
+
+v2.0 — Neon Edition
+🎨 New Theme: "Neon Cyberpunk" design.
+
+📊 HUD Dashboard: Real-time speed & ETA.
+
+🧠 Smart Parsing: Support for :, ;, \|.
+
+📂 Batch Mode: Process entire folders.
+
+🔐 Security Analytics: Password complexity stats.
+
+
+
+v1.0 — Initial Release
+Basic combo extraction.
+
+Simple UI.
+
+Manual filtering.
+
+
+
+🔧 Configuration & Options
+Option	Description
+Filter	Enter keyword to extract specific lines (e.g., hotmail).
+Batch Mode	Process every .txt file in a folder.
+Domain Extraction	Save top domains separately (Gmail, Yahoo, etc.).
+Auto-Clean	Removes duplicates and bad characters automatically.
+❓ FAQ
+Question	Answer
+Why does it only work for followers?	This tool is a community gift – following supports the author and encourages more open-source projects.
+What if I don't have a GitHub account?	You need a GitHub account to follow; it's free and takes 1 minute.
+Can I use this for illegal purposes?	No. This tool is for ethical and authorized use only.
+How do I report a bug?	Open an issue on GitHub.
+🧭 Roadmap
+□ Add support for SOCKS5 proxies
+□ Multi-threaded processing
+□ GUI version (PyQt/Tkinter)
+□ Export to JSON/CSV
+□ Integration with HaveIBeenPwned API
+□ Docker support
+⚠️ Legal Disclaimer
+This tool is intended for lawful, ethical, and authorized use only. Do not use it to process data you do not have explicit permission to handle. The author is not responsible for any misuse.
+
+📜 License
+This project is licensed under the MIT License.
+
+text
+MIT License
+
+Copyright (c) 2026 ａᏰᏥì ⃟  🇺🇸|🕯️🍷
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+⭐ Support
+If you like this tool, please star the repository and follow the author!
