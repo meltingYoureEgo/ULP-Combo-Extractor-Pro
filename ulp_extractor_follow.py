@@ -4,9 +4,6 @@ ULP Combo Extractor Pro — Professional Edition v3.0
 Developed by: ａᏰᏥì ⃟  🇺🇸|🕯️🍷
 GitHub: https://github.com/meltingYoureEgo
 Official Site: https://linktrabbhi.netlify.app
-
-A powerful combo extraction tool designed for security researchers
-and penetration testers to process and analyze credential data.
 """
 
 import os
@@ -17,6 +14,18 @@ import time
 import urllib.request
 from datetime import datetime
 
+# ==================== ANSI COLOR CODES ====================
+class Colors:
+    HEADER = '\033[95m'
+    BLUE = '\033[94m'
+    CYAN = '\033[96m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    RED = '\033[91m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+    END = '\033[0m'
+
 # ==================== VERSION & AUTHOR ====================
 __version__ = "3.0"
 __author__ = "ａᏰᏥì ⃟  🇺🇸|🕯️🍷"
@@ -24,17 +33,11 @@ __github__ = "https://github.com/meltingYoureEgo"
 __website__ = "https://linktrabbhi.netlify.app"
 __license__ = "MIT"
 
-# ==================== CONFIG ====================
-AUTHOR_NAME = __author__
-GITHUB_USERNAME = "meltingYoureEgo"
-OWNER_SITE = __website__
-VERSION = __version__
-
-# ==================== BANNER ====================
+# ==================== BANNER (COLORED) ====================
 def display_banner():
-    """Display professional banner."""
+    """Display colored professional banner."""
     banner = f"""
-╔══════════════════════════════════════════════════════════════╗
+{Colors.BOLD}{Colors.CYAN}╔══════════════════════════════════════════════════════════════╗
 ║                                                              ║
 ║   ██╗   ██╗██╗██████╗     ██████╗ ██████╗ ███╗   ███╗     ║
 ║   ██║   ██║██║██╔══██╗    ██╔══██╗██╔══██╗████╗ ████║     ║
@@ -43,13 +46,13 @@ def display_banner():
 ║   ╚██████╔╝██║██║         ██████╔╝██║  ██║██║ ╚═╝ ██║     ║
 ║    ╚═════╝ ╚═╝╚═╝         ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝     ║
 ║                                                              ║
-║   ULP Combo Extractor Pro — Professional Edition v{VERSION}  ║
+║   {Colors.YELLOW}ULP Combo Extractor Pro — Professional Edition v{__version__}{Colors.END}  ║
 ║                                                              ║
-║   👤 Author: {AUTHOR_NAME}                                   ║
-║   📎 GitHub: {__github__}                                   ║
-║   🌐 Website: {OWNER_SITE}                                  ║
+║   {Colors.GREEN}👤 Author: {__author__}{Colors.END}                               ║
+║   {Colors.BLUE}📎 GitHub: {__github__}{Colors.END}                 ║
+║   {Colors.CYAN}🌐 Website: {__website__}{Colors.END}                            ║
 ║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
+╚══════════════════════════════════════════════════════════════╝{Colors.END}
 """
     print(banner)
 
@@ -242,8 +245,8 @@ def main():
     print("\n" + "=" * 60)
     print("✅ Extraction complete!")
     print("📁 Output files are saved in the current directory.")
-    print("👤 Author: " + AUTHOR_NAME)
-    print("🌐 Website: " + OWNER_SITE)
+    print("👤 Author: " + __author__)
+    print("🌐 Website: " + __website__)
     print("📎 GitHub: " + __github__)
     print("=" * 60)
     print("\n⭐ If you found this tool useful, consider starring the repository!")
